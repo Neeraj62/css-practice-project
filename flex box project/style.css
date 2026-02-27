@@ -1,0 +1,94 @@
+
+/* 1️⃣ Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* 2️⃣ Body spacing */
+body{
+    padding:20px;
+}
+
+/* 3️⃣ Main Wrapper */
+.main-wrapper{
+    display:flex;           /* Left & Right side-by-side */
+    gap:20px;               /* Dono ke beech gap */
+}
+
+/* 4️⃣ Left & Right Section */
+.left-section,
+.right-section{
+    flex:1;                 /* Equal width */
+    border:2px solid black; /* Wireframe border */
+    padding:15px;
+}
+
+/* ================= LEFT SECTION ================= */
+
+/* 5️⃣ Big Box */
+.big-box{
+    height:200px;
+    border:1px solid black;
+    margin-bottom:20px;
+}
+
+/* 6️⃣ Small Box Container (Grid nahi use karna) */
+.small-box-container{
+    display:flex;          /* Flex use kar rahe hain */
+    flex-wrap:wrap;        /* Next line me shift hone ke liye */
+    gap:15px;
+}
+
+/* 7️⃣ Small Boxes */
+.box{
+    width:48%;             /* 2 column banane ke liye approx 50% */
+    height:80px;
+    border:1px solid black;
+}
+
+/* ================= RIGHT SECTION ================= */
+
+/* 8️⃣ Top Cards */
+.top-cards{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.card{
+    flex:1;                /* 4 equal cards */
+    height:100px;
+    border:1px solid black;
+}
+
+/* 9️⃣ Middle Large Boxes */
+.middle-large{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.large-box{
+    flex:1;
+    height:150px;
+    border:1px solid black;
+}
+
+/* 🔟 Small Lines */
+.small-lines{
+    margin-bottom:20px;
+}
+
+.line{
+    height:20px;
+    border:1px solid black;
+    margin-bottom:10px;
+}
+
+/* 1️⃣1️⃣ Bottom Box */
+.bottom-box{
+    height:80px;
+    border:1px solid black;
+}
