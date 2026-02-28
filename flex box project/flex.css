@@ -1,0 +1,67 @@
+
+/* 1. rest part  */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* 2. Body spacing */
+body{
+    background-color: rgb(255, 127, 214);
+   padding: 20px;
+  
+}
+/* 3. main wrapper */
+   .main-wrapper{
+    background-color: rgb(61, 217, 223);
+    display: flex;        
+    gap: 20px;
+    /* dispaly:-left & right side by side */
+     /*gap: dono ke bich ka gap */
+
+    
+   }
+    /* 4. left & right section */
+
+    .left-section, right-section{
+         flex: 1px;
+         border: 2px solid black;
+         padding: 15px;
+         /* flex- equal widhth */
+         /* border:main border */
+         
+    }
+
+    /* 5. big-box*/
+
+    .big-box{
+        height: 200px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+
+    }
+
+    /* 6. small-box-container */
+
+    .small-box-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    /* 7. small boxes */
+    .box{
+        width: 48%;
+        height: 80px;
+        border: 1px solid black;
+    }
+
+    /*Right section  */
+    /* top-card */
+
+    .top-cards{
+    display: flex;
+    
+    }
+
