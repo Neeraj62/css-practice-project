@@ -12,11 +12,13 @@ body{
 
 /* 3️⃣ Main Wrapper */
 .main-wrapper{
+    background-color: #f5eeee;
     display:flex;           /* Left & Right side-by-side */
     gap:20px;               /* Dono ke beech gap */
 }
 
 /* 4️⃣ Left & Right Section */
+
 .left-section,
 .right-section{
     flex:1;                 /* Equal width */
@@ -28,6 +30,7 @@ body{
 
 /* 5️⃣ Big Box */
 .big-box{
+    background-color: rgb(75, 244, 188);
     height:200px;
     border:1px solid black;
     margin-bottom:20px;
@@ -35,6 +38,7 @@ body{
 
 /* 6️⃣ Small Box Container (Grid nahi use karna) */
 .small-box-container{
+    
     display:flex;          /* Flex use kar rahe hain */
     flex-wrap:wrap;        /* Next line me shift hone ke liye */
     gap:15px;
@@ -42,6 +46,7 @@ body{
 
 /* 7️⃣ Small Boxes */
 .box{
+    background-color: rgb(255, 0, 0);
     width:48%;             /* 2 column banane ke liye approx 50% */
     height:80px;
     border:1px solid black;
@@ -51,12 +56,15 @@ body{
 
 /* 8️⃣ Top Cards */
 .top-cards{
+    background-color: #fff;
     display:flex;
     gap:10px;
     margin-bottom:20px;
 }
 
 .card{
+     /* Red */
+   
     flex:1;                /* 4 equal cards */
     height:100px;
     border:1px solid black;
@@ -64,23 +72,33 @@ body{
 
 /* 9️⃣ Middle Large Boxes */
 .middle-large{
+    /* color: hsla(200, 100%, 50%, 0.6); */
     display:flex;
     gap:15px;
     margin-bottom:20px;
 }
 
 .large-box{
+    background-color: hsla(200, 100%, 50%, 0.6);
     flex:1;
     height:150px;
     border:1px solid black;
 }
 
+
 /* 🔟 Small Lines */
 .small-lines{
+
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom:20px;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .line{
+    background-color: bisque;
+    width: 48%;
     height:20px;
     border:1px solid black;
     margin-bottom:10px;
@@ -88,6 +106,8 @@ body{
 
 /* 1️⃣1️⃣ Bottom Box */
 .bottom-box{
+    background-color: hsla(332, 100%, 50%, 0.6);
     height:80px;
     border:1px solid black;
 }
+
