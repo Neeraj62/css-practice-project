@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 100px 200px 100px;
+    grid-template-areas:;
+    grid-auto-rows: 100px;
+
+}
+
